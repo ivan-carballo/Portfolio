@@ -1,11 +1,16 @@
-/* header {
-    border: 2px solid black;
+#shadow {
+    height: 6.8em;
+    width: 102%;
+    position: fixed;
+    background-color: #7c7c7c;
+    opacity: 0.8;
+    margin: -10px;
 }
- */
+
 header .titulos {
-    /* border: 2px solid red; */
+    height: 6em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly
 }
 
 header .titulos .iconos img {
@@ -13,22 +18,27 @@ header .titulos .iconos img {
 }
 
 header .titulos .iconos a {
-    border: 2px solid blue;
     display: flex;
+    position: fixed;
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
     color: blueviolet;
     text-align: center;
+    margin-top: 0.5em;
 }
 
 header .titulos .iconos a:hover {
     color: brown;
     font-size: 2em;
+    background-color: #7c7c7c;
     transition: 1s;
+    border-radius: 15%;
+    padding: 0.25em;
 }
 
 header .titulos .iconos a:not(:hover) {
     font-size: 1em;
     transition: 0.5s;
+    border-radius: 15%;
 }

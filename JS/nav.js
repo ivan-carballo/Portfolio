@@ -1,5 +1,5 @@
 const nav = document.getElementById('nav');
-nav.innerHTML = `    <header>
+nav.innerHTML = `
 <div class="titulos">
     <section class="iconos">
         <a href="index.html">
@@ -23,5 +23,4 @@ nav.innerHTML = `    <header>
             <div class='titulo'>Contacto</div>
         </a>
     </section>
-</div>
-</header>`;
+</div>`;
