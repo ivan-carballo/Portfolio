@@ -1,0 +1,34 @@
+/* header {
+    border: 2px solid black;
+}
+ */
+header .titulos {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+header .titulos .iconos img {
+    width: 4em;
+}
+
+header .titulos .iconos a {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: blueviolet;
+    text-align: center;
+}
+
+header .titulos .iconos a:hover {
+    color: brown;
+    font-size: 2em;
+    transition: 1s;
+}
+
+header .titulos .iconos a:not(:hover) {
+    font-size: 1em;
+    transition: 0.5s;
+}
