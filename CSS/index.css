@@ -1,0 +1,14 @@
+#eslogan {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2em;
+    border: 2px solid black;
+    margin-top: 5px;
+    width: 25em;
+}
+
+#bug {
+    width: 2em;
+    position: fixed;   
+}
