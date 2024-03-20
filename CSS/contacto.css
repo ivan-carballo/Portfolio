@@ -37,6 +37,10 @@
     text-decoration: none;
 }
 
+#formulario_completo > .input > #input_apellidos {
+    width: 35em;
+}
+
 #input_mensaje {
     padding: 25px;
     width: 50em;
@@ -45,7 +49,7 @@
 }
 
 #input_correo {
-    width: 35em;
+    width: 40em;
 }
 
 #input_enviar {
