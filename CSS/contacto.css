@@ -1,5 +1,32 @@
+#pagina_completa {
+    border: 2px solid blue;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .mapa {
     display: flex;
-    border: 2px solid red;
-    margin-top: 5px;
+    justify-content: end;
+}
+
+#formulario_completo {
+    display: flex;
+    padding: 25px;
+    border: 5px solid red;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_unitario {
+    border-radius: 15%;
+    padding: 10px;
+    width: 15em;
+    font-weight: bold;
+    color: darkblue;
 }
