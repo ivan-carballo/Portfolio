@@ -8,6 +8,9 @@ function F_enviarForm () {
     const inputMensaje = document.getElementById('input_mensaje').value;
 
     if (inputCorreo.includes('@') && inputCorreo.includes('.')){
+
+        
+
         let mensajeEnviado = document.getElementById('formulario_completo');
         mensajeEnviado.innerHTML = `
             <section id="mensaje_enviado">
