@@ -9,6 +9,21 @@ function F_enviarForm () {
 
     if (inputCorreo.includes('@') && inputCorreo.includes('.')){
         let mensajeEnviado = document.getElementById('formulario_completo');
-        mensajeEnviado.innerHTML = '';
+        mensajeEnviado.innerHTML = `
+            <section id="mensaje_enviado">
+                <div id="mensaje_confirmacion">
+                    Su mensaje ha sido enviado de forma <div id=correcta>correcta</div>
+                </div>
+                <div id="mensaje_premio">
+                    Tenga aqui su premio
+                </div>
+                <div id="mensaje_flecha">
+                    <img src="Imagen/flecha.png" alt="Imagen de una flecha">
+                    <img id="flecha_reves" src="Imagen/flecha.png" alt="Imagen de una flecha">
+                </div>
+                <div id="premio">
+                    <video src="Imagen/Rick Roll.mp4" controls width=100%></video>
+                </div>
+            </section>`;
     }
 }
