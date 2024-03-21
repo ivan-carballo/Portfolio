@@ -30,6 +30,8 @@ function F_enviarForm () {
                 </section>
                 <script src="JS/form.js"></script>`;
 
+            const arrayMensaje = [{Nombre: inputNombre, Apellidos: inputApellidos, Correo: inputCorreo, Mensaje: inputMensaje}];
+
             var video = document.getElementById("video");
                 video.addEventListener("canplay", function() {
                 setTimeout(function() {
