@@ -23,6 +23,7 @@ function F_enviarForm () {
                         <img id="flecha_reves" src="Imagen/flecha.png" alt="Imagen de una flecha">
                     </div>
                     <div id="premio">
+                        <video id="conteo" src="Imagen/conteo.mp4" autoplay width=100%></video>
                         <video id="video" src="Imagen/premio.mp4" width=100%></video>
                     </div>
                 </section>
