@@ -28,7 +28,7 @@
     width: 25em;
     height: 2em;
     margin-left: -15px;
-    border-radius: 30%;
+    border-radius: 30px;
     font-weight: bold;
     color: darkblue;
     padding-left: 15px;
@@ -45,7 +45,7 @@
     padding: 25px;
     width: 50em;
     height: 15em;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 #input_correo {
@@ -53,7 +53,7 @@
 }
 
 #input_enviar {
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 2em;
     background-color: aqua;
 }
@@ -61,6 +61,81 @@
 #input_enviar:hover {
     background-color: rgb(0, 255, 21);
 }
+
+#mapa {
+    width:700px;
+    height: 750px;
+}
+
+@media (max-width: 1600px) {
+    .input_unitario {
+        width: 20em;
+        height: 2em;
+        border-radius: 30px;
+    }
+
+    #formulario_completo > .input > #input_apellidos {
+        width: 20em;
+    }
+
+    #input_correo {
+        width: 20em;
+    }
+
+    #input_mensaje {
+        width: 20em;
+        height: 10em;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #mapa {
+        width:475px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 900px) {
+    #pagina_completa {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #formulario_completo {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mapa {
+        width:350px;
+        height: 500px;
+    }
+
+    .input_unitario {
+        width: 15em;
+        height: 2em;
+        border-radius: 30px;
+    }
+
+    #formulario_completo > .input > #input_apellidos {
+        width: 15em;
+    }
+
+    #input_correo {
+        width: 15em;
+    }
+
+    #input_mensaje {
+        width: 15em;
+        height: 10em;
+        border-radius: 15px;
+    }
+}
+  
 
 
 /* Enviado el mensaje por el formulario */
