@@ -178,19 +178,9 @@
 
 #mensaje_enviado img {
     width: 5em;
-    margin: 0 20px 20px 20px;
+    margin: 0 15px 20px 15px;
 }
 
 #mensaje_enviado > #mensaje_flecha > #flecha_reves {
     transform:rotateY(180deg);
-}
-
-#mensaje_enviado > #premio > #input_premio {
-    font-size: 2em;
-    font-weight: bold;
-    color:rgb(168, 168, 168);
-    background-color: black;
-    border-radius: 25px;
-    padding: 10px;
-
 }
