@@ -25,7 +25,7 @@ function F_enviarForm () {
                     <img id="flecha_reves" src="Imagen/flecha.png" alt="Imagen de una flecha">
                 </div>
                 <div id="premio">
-                    <video src="Imagen/Rick Roll.mp4" controls width=100%></video>
+                    <video src="Imagen/premio.mp4" controls width=100%></video>
                 </div>
             </section>`;
     }
