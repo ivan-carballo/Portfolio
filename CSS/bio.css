@@ -1,0 +1,18 @@
+#bio_completa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;;
+}
+
+#bio_completa > .parrafo {
+    font-family: "Sansita Swashed", system-ui;
+    margin-top: -10px;
+    display: flex;
+    border: solid 2px red;
+    font-size: 2em;
+    width: 45%;
+}
+
+p.parrafo:nth-of-type(1) {
+    
+}
