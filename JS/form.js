@@ -15,7 +15,7 @@ function F_enviarForm () {
         mensajeEnviado.innerHTML = `
             <section id="mensaje_enviado">
                 <div id="mensaje_confirmacion">
-                    Su mensaje ha sido enviado de forma <div id=correcta>correcta</div>
+                    Su mensaje se ha enviado <div id=correcta>correctamente</div>
                 </div>
                 <div id="mensaje_premio">
                     Tenga aqui su premio
