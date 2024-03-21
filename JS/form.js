@@ -8,9 +8,6 @@ function F_enviarForm () {
     const inputMensaje = document.getElementById('input_mensaje').value;
 
     if (inputCorreo.includes('@') && inputCorreo.includes('.')){
-
-        
-
         let mensajeEnviado = document.getElementById('formulario_completo');
         mensajeEnviado.innerHTML = `
             <section id="mensaje_enviado">
@@ -25,6 +22,7 @@ function F_enviarForm () {
                     <img id="flecha_reves" src="Imagen/flecha.png" alt="Imagen de una flecha">
                 </div>
                 <div id="premio">
+                    <button type="submit" id="input_premio">Recibir premio</button>
                     <video src="Imagen/premio.mp4" controls width=100%></video>
                 </div>
             </section>`;
