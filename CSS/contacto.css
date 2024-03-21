@@ -83,20 +83,33 @@
     }
 
     #input_mensaje {
-        width: 20em;
+        width: 25em;
         height: 10em;
         border-radius: 15px;
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
     #mapa {
-        width:475px;
-        height: 700px;
+        width:500px;
+        height: 650px;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
+    #mapa {
+        width:350px;
+        height: 550px;
+    }
+
+    #input_mensaje {
+        width: 15em;
+        height: 10em;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 700px) {
     #pagina_completa {
         display: flex;
         flex-direction: column-reverse;
@@ -119,6 +132,7 @@
         width: 15em;
         height: 2em;
         border-radius: 30px;
+        margin-left: -50px;
     }
 
     #formulario_completo > .input > #input_apellidos {
