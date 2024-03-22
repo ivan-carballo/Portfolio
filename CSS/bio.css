@@ -63,6 +63,40 @@
 @media (max-width: 1000px) {
     #segunda_seccion, #primera_seccion {
         display: flex;
-        border: 2px solid red;
+        flex-direction: column;
     }
+}
+
+@media (max-width: 500px) {
+    .parrafo {
+        font-size: 1.5em;
+    }
+
+    #bio_completa > section > .segunda_seccion_img img {
+        width: 18em;
+    }
+
+    #bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img img {
+        height: 15em; 
+        width: 18em;
+    }    
+}
+
+@media (max-width: 250px) {
+    .parrafo {
+        font-size: 1em;
+    }
+
+    #bio_completa > section > .primera_seccion_img img {
+        width: 15em;
+    }
+
+    #bio_completa > section > .segunda_seccion_img img {
+        width: 10em;
+    }
+
+    #bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img img {
+        height: 7em; 
+        width: 10em;
+    }    
 }
