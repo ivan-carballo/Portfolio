@@ -17,7 +17,7 @@
 }
 
 #bio_completa > section > .segunda_seccion_img img {
-    width: 35em;
+    width: 30em;
 }
 
 #bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img {
@@ -60,18 +60,9 @@
     order: 2;
 }
 
-/* @media (min-width: 901px) {
-    #primera_seccion > .primera_seccion_texto, #tercera_seccion > .tercera_seccion_texto {
+@media (max-width: 1000px) {
+    #segunda_seccion, #primera_seccion {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        border: 2px solid red;
     }
 }
-
-@media (max-width: 900px) {
-    #primera_seccion > .primera_seccion_texto, #segunda_seccion > .segunda_seccion_texto, #tercera_seccion > .tercera_seccion_texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-} */
