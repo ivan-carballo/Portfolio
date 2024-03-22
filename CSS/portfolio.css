@@ -27,6 +27,10 @@
     border: solid black 2px;
 }
 
+#main > #completo > #individual > .unitario img:hover {
+    filter: brightness(0.5);
+}
+
 #main > #completo > #individual > .unitario > #akira {
     height: 200px;
 }
