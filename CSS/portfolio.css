@@ -23,9 +23,9 @@
 
 #main > #completo > #individual > .unitario p {
     background-color: #b1b1b1;
-    border: 5px solid red;
 }
 
 img {
     width: 200px;
+    border: solid black 2px;
 }
