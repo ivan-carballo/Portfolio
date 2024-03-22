@@ -4,17 +4,22 @@
     align-items: center;
 }
 
+#bio_completa > section > .primera_seccion_img, .segunda_seccion_img, .tercera_seccion_img {
+    border: solid black 3px;;
+}
+
 .parrafo {
     font-family: "Sansita Swashed", system-ui;
     display: flex;
     border: solid 2px red;
     font-size: 2em;
-    width: 45%;
 }
 
 #primera_seccion, #segunda_seccion, #tercera_seccion {
     border:solid 2px pink;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 @media (min-width: 901px) {
