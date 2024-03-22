@@ -1,32 +1,37 @@
 #bio_completa {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-self: center;
+    width: 95%;
+    border: solid 5px blue;
 }
 
 #bio_completa > section > .primera_seccion_img, .segunda_seccion_img {
-    border: solid black 3px;;
+    border: solid black 3px;
 }
 
 #bio_completa img {
     border-radius: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .parrafo {
     font-family: "Sansita Swashed", system-ui;
     display: flex;
-    border: solid 2px red;
     font-size: 2em;
 }
 
-#primera_seccion, #segunda_seccion {
-    border:solid 2px pink;
+#primera_seccion {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 #segunda_seccion {
+    width: 100%;
+    display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
