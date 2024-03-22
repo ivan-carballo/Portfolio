@@ -24,18 +24,31 @@ function F_enviarForm () {
                             <img id="flecha_reves" src="Imagen/contacto/flecha.png" alt="Imagen de una flecha">
                         </div>
                         <div id="premio">
-                            <video id="conteo" src="Imagen/contacto/conteo.mp4" autoplay width=40%></video>
+                            <video id="conteo" src="Imagen/contacto/conteo.mp4" autoplay width=75%></video>
                             <div>&nbsp;</div>
-                            <video id="video" src="Imagen/contacto/premio.mp4" width=85%></video>
+                            <video id="video" src="Imagen/contacto/premio.mp4" width=100%></video>
                         </div>
                     </section>
                     <script src="JS/form.js"></script>`;
 
                 const arrayMensaje = [{Nombre: inputNombre, Apellidos: inputApellidos, Correo: inputCorreo, Mensaje: inputMensaje}];
 
+                function ocultar(){
+                    document.getElementById('video').style.display = 'none';
+                    }
+                    ocultar();
+
                 var video = document.getElementById("video");
                     video.addEventListener("canplay", function() {
                     setTimeout(function() {
+                        function ocultar(){
+                            document.getElementById('conteo').style.display = 'none';
+                            }
+                            ocultar();
+                        function mostrar(){
+                            document.getElementById('video').style.display = 'block';
+                            }
+                        mostrar();
                         video.play();
                     }, 5000);
                     });
