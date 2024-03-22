@@ -43,9 +43,9 @@ function F_enviarForm () {
                     alert('Su mensaje debe contener al menos 50 caracteres');
                 }
         } else {
-            alert('Debe rellenar todos los campos para poder mandar su mensaje de forma correcta');
+            alert('Debe escribir un correo electronico valido para poder mandar su mensaje de forma correcta');
         }
     } else {
-        alert('Debe escribir un correo electronico valido para poder mandar su mensaje de forma correcta');
+        alert('Debe rellenar todos los campos para poder mandar su mensaje de forma correcta');
     }
 }
