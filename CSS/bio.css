@@ -1,34 +1,33 @@
 #bio_completa {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;;
 }
 
-#bio_completa > .parrafo {
+.parrafo {
     font-family: "Sansita Swashed", system-ui;
-    margin-top: -10px;
     display: flex;
     border: solid 2px red;
     font-size: 2em;
     width: 45%;
 }
 
-@media (min-width: 700px) {
-    p.parrafo:nth-of-type(1), p.parrafo:nth-of-type(2), p.parrafo:nth-of-type(3) {
-        align-self: flex-end;
-    }
+#primera_seccion, #segunda_seccion, #tercera_seccion {
+    border:solid 2px pink;
+}
 
-    p.parrafo:nth-of-type(7), p.parrafo:nth-of-type(8), p.parrafo:nth-of-type(9) {
-        align-self: flex-end;
+@media (min-width: 700px) {
+    #primera_seccion, #tercera_seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
 
 @media (max-width: 700px) {
-    #bio_completa > .parrafo {
+    #primera_seccion, #segunda_seccion, #tercera_seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 95%;
-    }
-
-    p.parrafo {
-        align-self: flex-start;
     }
 }
