@@ -1,31 +1,38 @@
-#main {
-    border: 1px solid black;
-}
-
 #main > #completo {
-    border: 2px solid blue;
+    display: grid;
+    justify-items: center;
 }
 
 #main > #completo > #individual {
-    border: 3px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin-top: 10px;
+    width: 75%;
 }
 
 #main > #completo > #individual > .unitario {
-    border: 4px solid pink;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px 0;
+    align-items: center;
+    margin: 15px 0;
 }
 
 #main > #completo > #individual > .unitario p {
     background-color: #b1b1b1;
+    margin-left: 5px;
+    border-radius: 25px;
+    padding: 12px;
+    width: 15em;
 }
 
-img {
-    width: 200px;
+#main > #completo > #individual > .unitario img {
+    width: 250px;
+    border-radius: 25px;
     border: solid black 2px;
+}
+
+#main > #completo > #individual > .unitario > #akira {
+    height: 200px;
 }
