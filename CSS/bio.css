@@ -1,16 +1,33 @@
+#main {
+    display: flex;
+    justify-content: center;
+}
+
 #bio_completa {
     display: flex;
     flex-direction: column;
     align-self: center;
     width: 95%;
-    border: solid 5px blue;
 }
 
 #bio_completa > section > .primera_seccion_img, .segunda_seccion_img {
-    border: solid black 3px;
     display: grid;
     justify-content: center;
     align-content: center;
+}
+
+#bio_completa > section > .segunda_seccion_img img {
+    width: 35em;
+}
+
+#bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img {
+    display: grid;
+    justify-content: center;
+}
+
+#bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img img {
+    height: 20em; 
+    width: 23em;
 }
 
 #bio_completa img {
@@ -22,7 +39,6 @@
     font-size: 2em;
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     width: 100%;
 }
 
