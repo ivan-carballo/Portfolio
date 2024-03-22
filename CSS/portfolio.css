@@ -1,15 +1,9 @@
-#main > #completo {
-    display: grid;
-    justify-items: center;
-}
-
 #main > #completo > #individual {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     margin-top: 10px;
-    width: 75%;
 }
 
 #main > #completo > #individual > .unitario {
@@ -35,4 +29,24 @@
 
 #main > #completo > #individual > .unitario > #akira {
     height: 200px;
+}
+
+@media (max-width: 1150px) {
+    #main > #completo > #individual {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    #main > #completo > #individual > .unitario {
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+    }
+
+    #main > #completo > #individual > .unitario p {
+        margin-left: 0px;
+        padding: 12px;
+        width: 226px;
+    }
 }
