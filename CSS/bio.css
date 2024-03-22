@@ -4,8 +4,12 @@
     align-items: center;
 }
 
-#bio_completa > section > .primera_seccion_img, .segunda_seccion_img, .tercera_seccion_img {
+#bio_completa > section > .primera_seccion_img, .segunda_seccion_img {
     border: solid black 3px;;
+}
+
+#bio_completa img {
+    border-radius: 50px;
 }
 
 .parrafo {
@@ -15,7 +19,7 @@
     font-size: 2em;
 }
 
-#primera_seccion, #segunda_seccion, #tercera_seccion {
+#primera_seccion, #segunda_seccion {
     border:solid 2px pink;
     width: 100%;
     display: grid;
