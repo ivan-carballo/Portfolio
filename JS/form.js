@@ -20,13 +20,13 @@ function F_enviarForm () {
                             Tenga aqui su premio
                         </div>
                         <div id="mensaje_flecha">
-                            <img src="Imagen/flecha.png" alt="Imagen de una flecha">
-                            <img id="flecha_reves" src="Imagen/flecha.png" alt="Imagen de una flecha">
+                            <img src="Imagen/contacto/flecha.png" alt="Imagen de una flecha">
+                            <img id="flecha_reves" src="Imagen/contacto/flecha.png" alt="Imagen de una flecha">
                         </div>
                         <div id="premio">
-                            <video id="conteo" src="Imagen/conteo.mp4" autoplay width=40%></video>
+                            <video id="conteo" src="Imagen/contacto/conteo.mp4" autoplay width=40%></video>
                             <div>&nbsp;</div>
-                            <video id="video" src="Imagen/premio.mp4" width=85%></video>
+                            <video id="video" src="Imagen/contacto/premio.mp4" width=85%></video>
                         </div>
                     </section>
                     <script src="JS/form.js"></script>`;
