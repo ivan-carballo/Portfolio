@@ -1,10 +1,16 @@
+#main {
+    display: flex;
+    justify-content: center;
+}
+
 .eslogan {
     border: 5px solid rgb(107, 107, 107);
     margin-top: 10px;
     background-color: rgb(124, 124, 224);
     display: flex;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 85%;
 }
 
 #eslogan {
