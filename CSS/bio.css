@@ -16,6 +16,10 @@
     align-content: center;
 }
 
+#bio_completa > #segunda_seccion > .segunda_seccion_texto {
+    padding-right: 15px;
+}
+
 #bio_completa > section > .segunda_seccion_img img {
     width: 30em;
 }
@@ -35,9 +39,10 @@
 }
 
 .parrafo {
-    font-family: "Sansita Swashed", system-ui;
+    font-family: "Boogaloo", sans-serif;
     font-size: 2em;
     width: 100%;
+    border: 2px solid red;
 }
 
 #primera_seccion {
