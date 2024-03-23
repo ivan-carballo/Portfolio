@@ -1,5 +1,5 @@
 const nav = document.getElementById('nav');
-nav.innerHTML = `
+nav.innerHTML = `<link rel="icon" type="image/jpg" href="../Imagen/favicon.jpg"/>
 <div class="titulos">
     <section class="iconos">
         <a href="index.html">
