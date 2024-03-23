@@ -50,66 +50,80 @@
 #main > .presentacion {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #main > .presentacion > #logo {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
 }
 
 #main > .presentacion > #logo img {
     border-radius: 50px;
 }
 
-#main > .presentacion > #texto {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-}
-
-#main > .presentacion > #texto > .texto_1, .texto_2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;;
-}
-
-#main > .presentacion > #texto > .texto_1 {
+#main > .presentacion > #logo > #nombre {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 5em;
-  }
+    font-size: 8em;
+}
 
-#main > .presentacion > #texto > .texto_2 {
+#main > .presentacion > #texto p {
     font-family: "Coming Soon", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 2em;
     display: flex;
     flex-direction: column;
-}
-
-#main > .presentacion > #texto > .texto_2 p {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+    align-items: center;
 }
   
+@media (max-width: 1150px) {
+    #main > .presentacion > #logo > #nombre {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 1250px) {
+    #main > .presentacion > #logo {
+        height: fit-content;
+    }
+
+    #main > .presentacion > #texto {
+        margin-top: -30px;
+    }
+}
+
 @media (max-width: 750px) {
-    #main > .presentacion {
+    #main > .presentacion > #logo > #nombre {
+        font-size: 5em;
+    }
+
+    #main > .presentacion > #logo {
         display: flex;
         flex-direction: column;
+        margin: 15px 0;
+    }
+
+    #main > .presentacion > #texto {
+        margin-top: -50px;
     }
 }
 
 @media (max-width: 500px) {
-    #main > .presentacion > #texto > .texto_1 {
+    #main > .presentacion > #logo > #nombre {
         font-size: 2.5em;
     }
 
-    #main > .presentacion > #texto > .texto_2 {
+    #main > .presentacion > #texto p {
         font-size: 1em;
+    }
+
+    #main > .presentacion > #texto {
+        margin-top: -5px;
     }
 }
