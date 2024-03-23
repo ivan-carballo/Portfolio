@@ -1,0 +1,39 @@
+#mensaje_enviado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -25px;
+}
+
+#mensaje_enviado > #mensaje_confirmacion {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+#mensaje_enviado > #mensaje_confirmacion > #correcta {
+    display: inline;
+    color: darkgreen;
+}
+
+#mensaje_enviado > #mensaje_premio {
+    font-size: 3.5em;
+    font-family: "Nabla", system-ui;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+#mensaje_enviado img {
+    width: 5em;
+    margin: 20px 15px 0 15px;
+}
+
+#mensaje_enviado > #mensaje_flecha > #flecha_reves {
+    transform:rotateY(180deg);
+}
+
+#premio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
