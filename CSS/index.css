@@ -88,7 +88,17 @@
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
-  }
+    display: flex;
+    flex-direction: column;
+}
+
+#main > .presentacion > #texto > .texto_2 p {
+    border: solid 2px blue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
   
 #main > .presentacion > #texto > .texto_2 a {
     text-decoration: none;
