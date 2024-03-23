@@ -31,27 +31,31 @@ function F_enviarForm () {
                     </section>
                     <script src="JS/form.js"></script>`;
 
-                const arrayMensaje = [{Nombre: inputNombre, Apellidos: inputApellidos, Correo: inputCorreo, Mensaje: inputMensaje}];
-
+                // Funcion para dar un delay de inicio automatico al video
+                // y que tanto el video como el contador regresivo aparezcan y desaparezcan cuando se necesitan
+                ocultar();
                 function ocultar(){
                     document.getElementById('video').style.display = 'none';
                     }
-                    ocultar();
-
-                var video = document.getElementById("video");
+                
+                let video = document.getElementById("video");
                     video.addEventListener("canplay", function() {
-                    setTimeout(function() {
-                        function ocultar(){
+                    setTimeout(function() {  
+
+                        ocultar2();
+                        function ocultar2(){
                             document.getElementById('conteo').style.display = 'none';
                             }
-                            ocultar();
+                                                
+                        mostrar();
                         function mostrar(){
                             document.getElementById('video').style.display = 'block';
-                            }
-                        mostrar();
+                            }   
+                                          
                         video.play();
                     }, 5000);
                     });
+
                 } else {
                     alert('Su mensaje debe contener al menos 50 caracteres');
                 }
