@@ -1,6 +1,13 @@
-#main {
+#completo {
     display: flex;
     justify-content: center;
+}
+
+#main {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 90%;
 }
 
 .eslogan {
@@ -10,7 +17,6 @@
     display: flex;
     justify-content: center;
     border-radius: 25px;
-    width: 85%;
 }
 
 #eslogan {
@@ -39,4 +45,24 @@
 #bug:not(:hover) {
     transform: rotate(0deg);
     transition: 0.75s;
+}
+
+#main > .presentacion {
+    border: 2px solid red;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#main > .presentacion > #logo {
+    display: flex;
+    justify-content: center;
+}
+
+#main > .presentacion > #logo img {
+    border-radius: 50px;
+}
+
+#main > .presentacion > #texto {
+    border: solid 2px black;
 }
