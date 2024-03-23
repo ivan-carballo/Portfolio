@@ -68,7 +68,6 @@
 }
 
 #main > .presentacion > #texto > .texto_1, .texto_2 {
-    border: solid 2px black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,15 +92,24 @@
 }
 
 #main > .presentacion > #texto > .texto_2 p {
-    border: solid 2px blue;
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin: 5px 0;
 }
   
-#main > .presentacion > #texto > .texto_2 a {
-    text-decoration: none;
-    position: fixed;
+@media (max-width: 750px) {
+    #main > .presentacion {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
+@media (max-width: 500px) {
+    #main > .presentacion > #texto > .texto_1 {
+        font-size: 2.5em;
+    }
+
+    #main > .presentacion > #texto > .texto_2 {
+        font-size: 1em;
+    }
 }
