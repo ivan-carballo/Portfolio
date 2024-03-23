@@ -48,7 +48,7 @@
 @media (max-width: 600px) {
     #main > #completo > #individual > .unitario {
         grid-template-columns: 1fr;
-        margin: 20px 0;
+        margin: 40px 0;
     }
 
     #main > #completo > #individual > .unitario p {
