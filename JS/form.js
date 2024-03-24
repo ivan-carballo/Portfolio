@@ -1,6 +1,9 @@
+// Traer informacion sobre la interaccion del usuario en los campos del formulario y el boton
 const inputBoton = document.getElementById('input_enviar');
 inputBoton.addEventListener('click', F_enviarForm);
 
+
+// Funcion para controlar que el usuario a rellenado los campos de forma correcta 
 function F_enviarForm () {
     const inputNombre = document.getElementById('input_nombre').value;
     const inputApellidos = document.getElementById('input_apellidos').value;
