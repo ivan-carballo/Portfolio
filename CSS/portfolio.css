@@ -22,6 +22,7 @@
     border-radius: 25px;
     padding: 12px;
     width: 15em;
+    text-align: justify;
 }
 
 #main > #completo > #individual > .unitario img {

@@ -42,6 +42,7 @@
     font-family: "Boogaloo", sans-serif;
     font-size: 2em;
     width: 100%;
+    text-align: justify;
 }
 
 #primera_seccion {
@@ -95,6 +96,10 @@
 
     #bio_completa > section > .segunda_seccion_img img {
         width: 10em;
+    }
+
+    #bio_completa > #segunda_seccion > .segunda_seccion_texto {
+        padding: 0;
     }
 
     #bio_completa > section > .tercera_seccion_texto > #tercera_seccion_img img {
