@@ -12,4 +12,4 @@ if(localStorage.getItem('visitas')) {
 let contadorVisitas = localStorage.getItem('visitas');
 
 // Mostrar el contador en la página
-document.getElementById('contador_visitas').innerText = `¡Bienvenida/o! Has visitado esta página ${contadorVisitas} veces`;
+document.getElementById('contador_visitas').innerText = `¡Bienvenida/o! Has visitado esta pagina ${contadorVisitas} veces`;

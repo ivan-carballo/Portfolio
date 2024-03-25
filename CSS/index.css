@@ -55,7 +55,7 @@
 }
 
 #visitas > #contador_visitas {
-    border: solid rgb(127, 144, 216) 2px;
+    border: solid 2px rgb(127, 144, 216);
     border-radius: 50px;
     text-align: center;
     padding: 10px;
