@@ -48,18 +48,27 @@
 }
 
 #visitas {
+    display: flex;
+    justify-content: center;
+}
+
+#visitas > #contador_visitas {
     font-family: "Edu NSW ACT Foundation", cursive;
     font-optical-sizing: auto;
     font-weight: bold;
     font-size: 1.5em;
-}
-
-#visitas > #contador_visitas {
     border: solid 2px rgb(127, 144, 216);
     border-radius: 50px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     width: fit-content;
+}
+
+#visitas > #contador_visitas > #bienvenido {
+    font-family: "Dancing Script", cursive;
+    font-style: oblique;  
+    font-size: 1.5em;
+    margin: -10px 0 0 0;
 }
 
 #main > .presentacion {
@@ -143,5 +152,15 @@
 
     #main > .presentacion > #texto {
         margin-top: -45px;
+    }
+
+    #visitas > #contador_visitas {
+        font-size: 1em;
+        padding: 15px;
+    }
+    
+    #visitas > #contador_visitas > #bienvenido {
+        font-size: 1.5em;
+        margin: -10px 0 0 0;
     }
 }
