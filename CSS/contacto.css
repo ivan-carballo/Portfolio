@@ -9,6 +9,11 @@
     justify-content: end;
 }
 
+#mapa {
+    border-radius: 45px;
+    padding: 10px;
+}
+
 #formulario_completo {
     display: flex;
     padding: 25px;
