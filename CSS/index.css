@@ -76,7 +76,7 @@
     font-family: "Coming Soon", cursive;
     font-weight: 900;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2.2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,11 +92,13 @@
 @media (max-width: 1250px) {
     #main > .presentacion > #logo {
         height: fit-content;
+        grid-template-columns: 1fr 2fr;
     }
 
     #main > .presentacion > #texto {
         margin-top: -30px;
     }
+    
 }
 
 @media (max-width: 750px) {
@@ -107,7 +109,7 @@
     #main > .presentacion > #logo {
         display: flex;
         flex-direction: column;
-        margin: 15px 0;
+        margin: 15px 0;        
     }
 
     #main > .presentacion > #texto {
@@ -121,10 +123,10 @@
     }
 
     #main > .presentacion > #texto p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     #main > .presentacion > #texto {
-        margin-top: -5px;
+        margin-top: -45px;
     }
 }
