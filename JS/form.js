@@ -66,6 +66,7 @@ function F_enviarForm () {
             alert('Debe escribir un correo electronico valido para poder mandar su mensaje de forma correcta');
         }
     } else {
+        document.getElementById('input_nombre').value = inputNombre;
         alert('Debe rellenar todos los campos para poder mandar su mensaje de forma correcta');
     }
 }
